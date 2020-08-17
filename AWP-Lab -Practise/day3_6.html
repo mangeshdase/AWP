@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .header{
+        display: flex;
+        background: chartreuse;
+        flex: 1;
+        justify-content: space-between;
+    }
+    .content{
+        display: flex;
+        flex: 10;
+        background: coral;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer{
+        display: flex;
+        background: chartreuse;
+        flex: 1;
+    }
+    .child1{
+        background: cornflowerblue;
+        display: flex;
+         justify-content: center;
+        align-items: center;
+    }
+    .child2{
+        background: forestgreen;
+        flex: 1;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .child3{
+        flex:2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    body{
+        margin: 0;
+    }
+
+
+</style>
+<body>
+   <div style="background: cadetblue;height:100vh;; display: flex; flex-direction: column;">
+    <div class="header">
+        <div class="child1">Reports</div>
+        <div class="child1">Mumbai</div>
+    </div>
+    <div class="content">
+        <div style="font-size: 30px;">11:44</div>
+        <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+    </div>
+    <div class="footer">
+        <div class="child2">Lorem,ipsum</div>
+        <div class="child3">Lorem, ipsum door sit met.</div>
+        <div class="child2">Lorem,ipsum.</div>
+    </div>
+    </div>
+</body>
+</html>

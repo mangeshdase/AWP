@@ -1,0 +1,12 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+}
+.child{
+    background: black;
+    color: white;
+    font-size: xx-large;
+    padding: 8px;
+}

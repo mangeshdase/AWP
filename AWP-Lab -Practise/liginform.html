@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        body{
+            display: flex;
+
+            background-image:url(https://picsum.photos/1000/800);
+            object-fit: cover;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        form{
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <div style="  width:300px;flex:1px;justify-content: center;padding:16px ;background-color:lightgreen;display: flex; border:1px solid black;"> 
+        <form  style="width:fit-content">
+            <h1 style="padding:12px 20px;margin: 8px 0;text-align: center;display:flex"> LOGIN FORM</h1>
+          <div style="margin: 16px;">
+               <label for='USERNAME'><b>USERNAME</b></label>
+        
+            <input  id='USERNAME'type="text/number" placeholder="Enter Username" name="USERNAME" minlength="3"maxlength="12" required>
+            </div>
+            <div style="margin: 16px">
+                <label for='password'><b>PASSWORD</b></label>
+            <input id='password'type='text/number' placeholder= "Enter Password" name=PASSWORD minlength="5" maxlength="12" required>
+            </div>
+            <div style="margin: 16px;"></div>
+            <label>
+              <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+            
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Keep me signed in
+                  </label>
+                  <div style="margin: 16px; justify-content: center;">
+                    <button type="submit"style="justify-content:center;color:black;background-color:green">Login</button>
+                    </div>
+            </div>
+            
+            </form>
+        </form>
+    </div>
+</body>
+</html>

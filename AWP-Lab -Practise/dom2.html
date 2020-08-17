@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="dom2.js">
+    </script>
+</head>
+<body>
+    <div>
+        <ul style="    display: flex;
+        justify-content: space-between;
+        background: aqua;
+        list-style: none;
+    }">
+            <li>HOME</li>
+            <li>ABOUT US</li>
+            <li>SIGN IN</li>
+        </ul>
+    </div>
+    <div>
+        <input id="inp" placeholder="comment here">
+        <button onclick="comment()">COMMENT</button>
+    <div>
+        <button id="like" onclick="like()">LIKE 1</button>
+        <button id="dislike" onclick="dislike()">DIS LIKE 1</button>
+    </div>
+    </div>
+    <!--to clone a comment-->
+    <div id="comment">
+        <div id="showcomment"> Place the value</div>
+    </div>
+</body>
+</html>
